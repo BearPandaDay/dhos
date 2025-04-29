@@ -75,7 +75,7 @@ export default function LoginPage() {
         <CardHeader className="space-y-1">
           <div className="flex justify-center mb-4">
             <div className="relative h-16 w-16 overflow-hidden rounded-full">
-              <Image src="/images/logo-beta.png" alt="ADMINISTRADORA BETA" fill className="object-cover" />
+              <Image src="/images/logo-beta.png" alt="Maná Fruit & Healthy food" fill className="object-cover" />
             </div>
           </div>
           <CardTitle className="text-2xl font-bold text-center">Iniciar sesión</CardTitle>

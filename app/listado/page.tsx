@@ -9,7 +9,7 @@ import { MapPin, Star, Info, Leaf } from "lucide-react"
 const hoteles = [
   {
     id: 1,
-    nombre: "Eco Lodge Las Montañas",
+    nombre: "Hotel la Ceiba Hotel la Ceiba",
     descripcion: "Hotel sostenible con vistas panorámicas y energía solar",
     imagen: "/images/quiosco-frutas.png",
     ubicacion: "Sierra Norte",
@@ -66,7 +66,7 @@ const hoteles = [
 const restaurantes = [
   {
     id: 1,
-    nombre: "La Huerta Orgánica",
+    nombre: "Chalet de la Montaña- azul, Orgánica",
     descripcion: "Restaurante farm-to-table con productos de kilómetro cero",
     imagen: "/images/ensalada-frutas.png",
     ubicacion: "Valle Central",
@@ -84,7 +84,7 @@ const restaurantes = [
   },
   {
     id: 3,
-    nombre: "Frutería Maná",
+    nombre: "Chalet- Mirador Villa Helena",
     descripcion: "Jugos y batidos naturales con frutas orgánicas de temporada",
     imagen: "/images/explosion-verano.png",
     ubicacion: "Puerto Azul",
@@ -102,7 +102,7 @@ const restaurantes = [
   },
   {
     id: 5,
-    nombre: "Raíces Locales",
+    nombre: "Restaurante la Ceiba, barrio el Bosque, corredor- de carga-, Cartagena de Indias",
     descripcion: "Gastronomía tradicional con un enfoque moderno y sostenible",
     imagen: "/images/quiosco-frutas.png",
     ubicacion: "Pueblo Antiguo",
@@ -111,8 +111,8 @@ const restaurantes = [
   },
   {
     id: 6,
-    nombre: "Café del Comercio Justo",
-    descripcion: "Cafetería con productos de comercio justo y pastelería artesanal",
+    nombre: "Hostel H.A., barrio los Corales",
+    descripcion: "Hostel H.A., barrio los Corales, Cartagena de Indias",
     imagen: "/images/mana-restaurante.png",
     ubicacion: "Centro Histórico",
     calificacion: 4.5,

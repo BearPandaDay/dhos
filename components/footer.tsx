@@ -10,9 +10,9 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                <Image src="/images/logo-beta.png" alt="ADMINISTRADORA BETA" fill className="object-cover" />
+                <Image src="/images/logo-beta.png" alt="Maná Fruit & Healthy food" fill className="object-cover" />
               </div>
-              <span className="text-xl font-bold">DHO&apos;s</span>
+              <span className="text-xl font-bold"> MANÁ- DHO&apos;s</span>
             </Link>
             <p className="text-gray-600 mb-4">
               Plataforma digital ecoturística que integra hoteles, restaurantes y transporte eco-sostenible.
@@ -121,13 +121,13 @@ export default function Footer() {
             <div className="relative h-16 w-16 overflow-hidden rounded-full mb-4">
               <Image
                 src="/images/logo-beta.png"
-                alt="ADMINISTRADORA BETA, ABC & CIA. LTDA."
+                alt="Maná Fruit & Healthy food, ABC & CIA. LTDA."
                 fill
                 className="object-cover"
               />
             </div>
-            <p>ADMINISTRADORA BETA, ABC & CIA. LTDA.</p>
-            <p>&copy; {new Date().getFullYear()} DHO&apos;s. Todos los derechos reservados.</p>
+            <p>Maná Fruit & Healthy food, ABC & CIA. LTDA.</p>
+            <p>&copy; {new Date().getFullYear()}  MANÁ- DHO&apos;s. Todos los derechos reservados.</p>
           </div>
         </div>
       </div>

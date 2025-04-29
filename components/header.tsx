@@ -36,9 +36,9 @@ export default function Header() {
         <div className="flex items-center gap-2 mr-4">
           <Link href="/" className="flex items-center gap-2">
             <div className="relative h-10 w-10 overflow-hidden rounded-full">
-              <Image src="/images/logo-beta.png" alt="ADMINISTRADORA BETA" fill className="object-cover" />
+              <Image src="/images/logo-beta.png" alt="Maná Fruit & Healthy food" fill className="object-cover" />
             </div>
-            <span className="text-xl font-bold">DHO&apos;s</span>
+            <span className="text-xl font-bold"> MANÁ- DHO&apos;s</span>
           </Link>
         </div>
 
@@ -63,7 +63,7 @@ export default function Header() {
                           <div className="relative h-10 w-10 overflow-hidden rounded-full mb-2">
                             <Image
                               src="/images/logo-beta.png"
-                              alt="ADMINISTRADORA BETA"
+                              alt="Maná Fruit & Healthy food"
                               fill
                               className="object-cover"
                             />
@@ -154,9 +154,9 @@ export default function Header() {
             <div className="grid gap-6 py-6">
               <Link href="/" className="flex items-center gap-2 text-lg font-semibold">
                 <div className="relative h-8 w-8 overflow-hidden rounded-full">
-                  <Image src="/images/logo-beta.png" alt="ADMINISTRADORA BETA" fill className="object-cover" />
+                  <Image src="/images/logo-beta.png" alt="Maná Fruit & Healthy food" fill className="object-cover" />
                 </div>
-                <span>DHO&apos;s</span>
+                <span> MANÁ- DHO&apos;s</span>
               </Link>
               <div className="grid gap-4">
                 <Link href="/" className="flex items-center gap-2 text-base font-medium">

@@ -109,7 +109,7 @@ export default function RegistroPage() {
         >
           <h1 className="text-3xl font-bold mb-4">¡Registro Exitoso!</h1>
           <p className="text-gray-600 mb-8">
-            Tu cuenta ha sido creada correctamente. Ahora puedes disfrutar de todas las funcionalidades de DHO&apos;s y
+            Tu cuenta ha sido creada correctamente. Ahora puedes disfrutar de todas las funcionalidades de  MANÁ- DHO&apos;s y
             comenzar a explorar destinos eco-sostenibles.
           </p>
 
@@ -145,7 +145,7 @@ export default function RegistroPage() {
     <div className="py-8 px-4 md:px-8 max-w-3xl mx-auto">
       <Card>
         <CardHeader>
-          <CardTitle className="text-2xl md:text-3xl">Crea tu cuenta en DHO&apos;s</CardTitle>
+          <CardTitle className="text-2xl md:text-3xl">Crea tu cuenta en  MANÁ- DHO&apos;s</CardTitle>
           <CardDescription>Completa tus datos personales y de salud para una experiencia personalizada</CardDescription>
         </CardHeader>
         <CardContent>

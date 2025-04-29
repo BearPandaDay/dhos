@@ -11,7 +11,7 @@ import { ChevronLeft, ChevronRight, MapPin, Star, Leaf } from "lucide-react"
 const items = [
   {
     id: 1,
-    nombre: "Eco Lodge Las Montañas",
+    nombre: "Hotel la Ceiba",
     tipo: "hotel",
     descripcion: "Hotel sostenible con vistas panorámicas y energía solar",
     imagen: "/images/quiosco-frutas.png",
@@ -31,7 +31,7 @@ const items = [
   },
   {
     id: 3,
-    nombre: "La Huerta Orgánica",
+    nombre: "Chalet de la Montaña- azul, en Lomita-Arena Orgánica",
     tipo: "restaurante",
     descripcion: "Restaurante farm-to-table con productos de kilómetro cero",
     imagen: "/images/ensalada-frutas.png",
@@ -51,7 +51,7 @@ const items = [
   },
   {
     id: 5,
-    nombre: "Frutería Maná",
+    nombre: "Chalet- Mirador Villa Helena",
     tipo: "restaurante",
     descripcion: "Jugos y batidos naturales con frutas orgánicas de temporada",
     imagen: "/images/explosion-verano.png",

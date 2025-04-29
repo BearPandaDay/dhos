@@ -31,11 +31,11 @@ import {
 const hotelesDetalle = [
   {
     id: 1,
-    nombre: "Eco Lodge Las Montañas",
+    nombre: "Hotel la Ceiba, barrio el Bosque, corredor- de carga-.,  Cartagena de Indias",
     descripcion:
-      "Ubicado en el corazón de la Sierra Norte, Eco Lodge Las Montañas ofrece una experiencia única de alojamiento sostenible con vistas panorámicas impresionantes. Nuestras cabañas están construidas con materiales locales y sostenibles, y funcionamos completamente con energía solar.",
+      "Ubicado en el corazón de la Sierra Norte, Hotel la Ceiba ofrece una experiencia única de alojamiento sostenible con vistas panorámicas impresionantes. Nuestras cabañas están construidas con materiales locales y sostenibles, y funcionamos completamente con energía solar.",
     descripcionLarga:
-      "Eco Lodge Las Montañas es un refugio de paz y sostenibilidad en medio de la naturaleza. Nuestro compromiso con el medio ambiente se refleja en cada aspecto de nuestra operación. Desde la construcción de nuestras cabañas con materiales locales y sostenibles, hasta nuestro sistema de energía 100% solar, cada detalle ha sido cuidadosamente pensado para minimizar nuestro impacto ambiental.\n\nNuestros huéspedes pueden disfrutar de habitaciones confortables con vistas panorámicas a las montañas, una gastronomía basada en productos locales y orgánicos, y una variedad de actividades que permiten conectar con la naturaleza de manera respetuosa.\n\nContamos con programas de conservación activos y colaboramos con las comunidades locales para promover prácticas sostenibles y el desarrollo económico de la región.",
+      "Hotel la Ceiba es un refugio de paz y sostenibilidad en medio de la naturaleza. Nuestro compromiso con el medio ambiente se refleja en cada aspecto de nuestra operación. Desde la construcción de nuestras cabañas con materiales locales y sostenibles, hasta nuestro sistema de energía 100% solar, cada detalle ha sido cuidadosamente pensado para minimizar nuestro impacto ambiental.\n\nNuestros huéspedes pueden disfrutar de habitaciones confortables con vistas panorámicas a las montañas, una gastronomía basada en productos locales y orgánicos, y una variedad de actividades que permiten conectar con la naturaleza de manera respetuosa.\n\nContamos con programas de conservación activos y colaboramos con las comunidades locales para promover prácticas sostenibles y el desarrollo económico de la región.",
     imagen: "/images/quiosco-frutas.png",
     imagenes: [
       "/images/quiosco-frutas.png",

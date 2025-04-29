@@ -23,7 +23,7 @@ export default function MapaPage() {
   const puntosInteres = [
     {
       id: 1,
-      nombre: "Eco Lodge Las Montañas",
+      nombre: "Hotel la Ceiba",
       tipo: "hotel",
       ubicacion: "Sierra Norte",
       coordenadas: { lat: 40.123, lng: -3.456 },
@@ -31,7 +31,7 @@ export default function MapaPage() {
     },
     {
       id: 2,
-      nombre: "La Huerta Orgánica",
+      nombre: "Chalet de la Montaña- azul Orgánica",
       tipo: "restaurante",
       ubicacion: "Valle Central",
       coordenadas: { lat: 40.234, lng: -3.567 },

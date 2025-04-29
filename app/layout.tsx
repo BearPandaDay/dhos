@@ -10,7 +10,7 @@ import { AuthProvider } from "@/context/auth-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "DHO's - Plataforma Digital Ecoturístico",
+  title: " MANÁ- DHO's - Plataforma Digital Ecoturístico",
   description: "Market-place al estilo Airbnb/Booking que integra restaurantes, hoteles y ecomovilidad",
     generator: 'v0.dev'
 }

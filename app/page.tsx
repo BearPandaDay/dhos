@@ -18,16 +18,16 @@ export default function Home() {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
           <div className="relative h-24 w-24 overflow-hidden rounded-full mb-4 bg-white/80 p-1">
-            <Image src="/images/logo-beta.png" alt="ADMINISTRADORA BETA" fill className="object-cover" />
+            <Image src="/images/logo-beta.png" alt="Maná Fruit & Healthy food" fill className="object-cover" />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Descubre el Ecoturismo con DHO&apos;s</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Descubre el Ecoturismo Gastro-Saludable con MANÁ- DHO&apos;s</h1>
           <p className="text-xl md:text-2xl text-white mb-8 max-w-3xl">
             Hoteles, restaurantes y transporte eco-sostenible en un solo lugar
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
               <Link href="/listado">
-                Ver hoteles y restaurantes <ArrowRight className="ml-2 h-5 w-5" />
+              Ver hoteles-, restaurantes y estaciones de comida saludable <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button
@@ -42,16 +42,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ¿Qué es DHO's? */}
+      {/* ¿Qué es  MANÁ- DHO's? */}
       <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">¿Qué es DHO&apos;s?</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">¿Qué es  MANÁ- DHO&apos;s?</h2>
+        <h3 style={{textAlign: "center",}}>¿ .....Comida Saludable con menú adicional para Diabéticos, Hipertensos y/u Obesos.</h3>
+        <br />
+        <br />
+        <br />
         <div className="grid md:grid-cols-3 gap-8">
           <div className="flex flex-col items-center text-center p-6 border border-gray-200 rounded-lg shadow-sm">
             <div className="bg-green-100 p-4 rounded-full mb-4">
               <Hotel className="h-8 w-8 text-green-600" />
             </div>
             <h3 className="text-xl font-semibold mb-2">Hoteles Eco-amigables</h3>
-            <p className="text-gray-600">Alojamientos comprometidos con el medio ambiente y prácticas sostenibles.</p>
+            <p className="text-gray-600">Experiencia de alojamientos Eco-amigables.</p>
           </div>
           <div className="flex flex-col items-center text-center p-6 border border-gray-200 rounded-lg shadow-sm">
             <div className="bg-green-100 p-4 rounded-full mb-4">
@@ -92,10 +96,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex justify-center mb-6">
             <div className="relative h-20 w-20 overflow-hidden rounded-full bg-white/20 p-1">
-              <Image src="/images/logo-beta.png" alt="ADMINISTRADORA BETA" fill className="object-cover" />
+              <Image src="/images/logo-beta.png" alt="Maná Fruit & Healthy food" fill className="object-cover" />
             </div>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">¿Listo para comenzar tu aventura eco-sostenible?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">saludable, inclusiva para los DHO's?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Regístrate hoy y comienza a disfrutar de experiencias únicas mientras cuidas tu salud y el planeta.
           </p>

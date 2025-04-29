@@ -11,10 +11,10 @@ import { Leaf, Utensils, Wine, Salad, Wheat, ChevronLeft, Calendar } from "lucid
 const restaurantesDetalle = [
   {
     id: 1,
-    nombre: "La Huerta Orgánica",
+    nombre: "Chalet de la Montaña- azul, en Lomita-Arena, via al mar- Cartagena de Indias.",
     descripcion: "Restaurante farm-to-table con productos de kilómetro cero y cocina de temporada.",
     descripcionLarga:
-      "La Huerta Orgánica es un restaurante comprometido con la filosofía farm-to-table, donde cada plato cuenta una historia de sostenibilidad y sabor auténtico. Nuestra cocina se basa en ingredientes frescos cultivados en nuestra propia huerta orgánica o adquiridos directamente de agricultores locales.\n\nNuestro menú cambia con las estaciones, reflejando siempre lo mejor que la tierra nos ofrece en cada momento del año. Trabajamos en estrecha colaboración con productores locales que comparten nuestra visión de una agricultura respetuosa con el medio ambiente y libre de químicos.\n\nEn La Huerta Orgánica, no solo disfrutarás de una experiencia gastronómica excepcional, sino que también contribuirás a un sistema alimentario más sostenible y justo. Nuestro equipo de chefs creativos transforma ingredientes simples y honestos en platos sofisticados que celebran los sabores naturales.",
+      "Chalet de la Montaña- azul Orgánica es un restaurante comprometido con la filosofía farm-to-table, donde cada plato cuenta una historia de sostenibilidad y sabor auténtico. Nuestra cocina se basa en ingredientes frescos cultivados en nuestra propia huerta orgánica o adquiridos directamente de agricultores locales.\n\nNuestro menú cambia con las estaciones, reflejando siempre lo mejor que la tierra nos ofrece en cada momento del año. Trabajamos en estrecha colaboración con productores locales que comparten nuestra visión de una agricultura respetuosa con el medio ambiente y libre de químicos.\n\nEn Chalet de la Montaña- azul Orgánica, no solo disfrutarás de una experiencia gastronómica excepcional, sino que también contribuirás a un sistema alimentario más sostenible y justo. Nuestro equipo de chefs creativos transforma ingredientes simples y honestos en platos sofisticados que celebran los sabores naturales.",
     imagen: "/images/ensalada-frutas.png",
     imagenes: [
       "/images/ensalada-frutas.png",
@@ -23,7 +23,7 @@ const restaurantesDetalle = [
       "/images/mana-restaurante.png",
     ],
     ubicacion: "Valle Central",
-    direccion: "Camino de la Huerta, 15, Valle Central",
+    direccion: "Camino de Chalet de la Montaña- azul Chalet de la Montaña- azul 15, Valle Central",
     coordenadas: { lat: 40.234, lng: -3.567 },
     calificacion: 4.7,
     numeroResenas: 86,
@@ -157,10 +157,10 @@ const restaurantesDetalle = [
   },
   {
     id: 3,
-    nombre: "Frutería Maná",
+    nombre: "Chalet- Mirador Villa Helena",
     descripcion: "Jugos y batidos naturales con frutas orgánicas de temporada y opciones saludables.",
     descripcionLarga:
-      "Frutería Maná es un espacio dedicado a la alimentación saludable y consciente, donde ofrecemos una amplia variedad de jugos, batidos y opciones nutritivas elaboradas con frutas y verduras orgánicas de temporada.\n\nNuestro compromiso con la sostenibilidad se refleja en cada aspecto de nuestro negocio. Trabajamos directamente con agricultores locales que practican métodos de cultivo orgánico, asegurando así la frescura y calidad de nuestros ingredientes mientras apoyamos la economía local.\n\nEn Frutería Maná, creemos que la alimentación saludable debe ser también deliciosa. Nuestros expertos en nutrición diseñan combinaciones que no solo son explosiones de sabor, sino que también aportan beneficios específicos para la salud. Ya sea que busques energía, desintoxicación, fortalecimiento del sistema inmunológico o simplemente disfrutar de un delicioso refresco natural, tenemos la opción perfecta para ti.",
+      "Chalet- Mirador Villa Helena, en Turbaco- Bolivar es un espacio dedicado a la alimentación saludable y consciente, donde ofrecemos una amplia variedad de jugos, batidos y opciones nutritivas elaboradas con frutas y verduras orgánicas de temporada.\n\nNuestro compromiso con la sostenibilidad se refleja en cada aspecto de nuestro negocio. Trabajamos directamente con agricultores locales que practican métodos de cultivo orgánico, asegurando así la frescura y calidad de nuestros ingredientes mientras apoyamos la economía local.\n\nEn Chalet- Mirador Villa Helena, en Turbaco- Bolivar, creemos que la alimentación saludable debe ser también deliciosa. Nuestros expertos en nutrición diseñan combinaciones que no solo son explosiones de sabor, sino que también aportan beneficios específicos para la salud. Ya sea que busques energía, desintoxicación, fortalecimiento del sistema inmunológico o simplemente disfrutar de un delicioso refresco natural, tenemos la opción perfecta para ti.",
     imagen: "/images/explosion-verano.png",
     imagenes: [
       "/images/explosion-verano.png",

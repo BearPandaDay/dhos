@@ -31,7 +31,7 @@ export default function RegistroExitosoPage() {
       >
         <h1 className="text-3xl font-bold mb-4">¡Registro Exitoso!</h1>
         <p className="text-gray-600 mb-8">
-          Tu cuenta ha sido creada correctamente. Ahora puedes disfrutar de todas las funcionalidades de DHO&apos;s y
+          Tu cuenta ha sido creada correctamente. Ahora puedes disfrutar de todas las funcionalidades de  MANÁ- DHO&apos;s y
           comenzar a explorar destinos eco-sostenibles.
         </p>
 
