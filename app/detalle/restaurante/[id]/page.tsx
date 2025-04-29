@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import { useState, useEffect } from "react"
 import Image from "next/image"
@@ -367,4 +367,167 @@ export default function RestauranteDetallePage() {
               <div className="absolute top-4 right-4 bg-green-600 text-white p-2 rounded-md flex items-center">
                 <Leaf className="h-5 w-5 mr-2" />
                 <span className="font-medium">Eco Certificado</span>
-              </div\
+              </div>
+            )}
+          </div>
+
+          <div className="grid grid-cols-4 gap-2 mb-8">
+            {restaurante.imagenes.map((img: string, index: number) => (
+              <div
+                key={index}
+                className={`relative h-20 rounded-md overflow-hidden cursor-pointer border-2 ${
+                  img === imagenPrincipal ? "border-green-600" : "border-transparent"
+                }`}
+                onClick={() => setImagenPrincipal(img)}
+              >
+                <Image
+                  src={img || "/placeholder.svg"}
+                  alt={`${restaurante.nombre} - Imagen ${index + 1}`}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            ))}
+          </div>
+
+          <div className="mb-8">
+            <h1 className="text-3xl font-bold mb-2">{restaurante.nombre}</h1>
+            <div className="flex items-center mb-4">
+              <div className="flex items-center">
+                <Leaf className="h-5 w-5 text-green-600 mr-2" />
+                <span className="text-gray-600">{restaurante.tiposCocina.join(", ")}</span>
+              </div>
+            </div>
+            <div className="flex items-center mb-4">
+              <div className="flex items-center">
+                <span className="font-medium mr-2">Precio medio:</span>
+                <span className="text-gray-600">{restaurante.precioMedio}€ por persona</span>
+              </div>
+            </div>
+            <p className="text-gray-700 whitespace-pre-line">{restaurante.descripcionLarga}</p>
+          </div>
+
+          <div className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">Platos destacados</h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              {restaurante.platosDestacados.map((plato: any, index: number) => (
+                <div key={index} className="border rounded-lg p-4">
+                  <h3 className="font-semibold mb-1">{plato.nombre}</h3>
+                  <p className="text-gray-600 text-sm mb-2">{plato.descripcion}</p>
+                  <p className="font-medium">{plato.precio}€</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">Prácticas sostenibles</h2>
+            <ul className="grid md:grid-cols-2 gap-2">
+              {restaurante.practicasSostenibles.map((practica: string, index: number) => (
+                <li key={index} className="flex items-start">
+                  <Leaf className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
+                  <span>{practica}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Columna derecha - Información adicional */}
+        <div className="lg:w-1/3">
+          <div className="sticky top-24">
+            <div className="border rounded-lg p-6 mb-6 shadow-sm">
+              <h2 className="text-xl font-semibold mb-4">Información</h2>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-medium mb-2">Dirección</h3>
+                  <p className="text-gray-600">{restaurante.direccion}</p>
+                </div>
+
+                <div>
+                  <h3 className="font-medium mb-2">Horarios</h3>
+                  <div className="space-y-1 text-sm">
+                    <div className="flex justify-between">
+                      <span>Lunes:</span>
+                      <span className="text-gray-600">{restaurante.horarios.lunes}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Martes:</span>
+                      <span className="text-gray-600">{restaurante.horarios.martes}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Miércoles:</span>
+                      <span className="text-gray-600">{restaurante.horarios.miercoles}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Jueves:</span>
+                      <span className="text-gray-600">{restaurante.horarios.jueves}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Viernes:</span>
+                      <span className="text-gray-600">{restaurante.horarios.viernes}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Sábado:</span>
+                      <span className="text-gray-600">{restaurante.horarios.sabado}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Domingo:</span>
+                      <span className="text-gray-600">{restaurante.horarios.domingo}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-medium mb-2">Características</h3>
+                  <div className="grid grid-cols-2 gap-2">
+                    {restaurante.caracteristicas.map((caracteristica: any, index: number) => (
+                      <div key={index} className="flex items-center p-2 bg-gray-50 rounded-md">
+                        <div className="text-green-600 mr-2">{caracteristica.icono}</div>
+                        <span className="text-sm">{caracteristica.nombre}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-medium mb-2">Certificaciones</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {restaurante.certificaciones.map((certificacion: string, index: number) => (
+                      <span key={index} className="bg-green-50 text-green-700 px-2 py-1 rounded-md text-xs">
+                        {certificacion}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="border rounded-lg p-6 shadow-sm">
+              <h3 className="text-lg font-semibold mb-4">Contacto</h3>
+              <div className="space-y-3">
+                <p className="flex items-center">
+                  <span className="font-medium w-20">Teléfono:</span>
+                  <span className="text-gray-600">{restaurante.contacto.telefono}</span>
+                </p>
+                <p className="flex items-center">
+                  <span className="font-medium w-20">Email:</span>
+                  <span className="text-gray-600">{restaurante.contacto.email}</span>
+                </p>
+                <p className="flex items-center">
+                  <span className="font-medium w-20">Web:</span>
+                  <span className="text-gray-600">{restaurante.contacto.web}</span>
+                </p>
+              </div>
+
+              <div className="mt-6">
+                <Button className="w-full bg-green-600 hover:bg-green-700">Reservar mesa</Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
